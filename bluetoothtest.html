@@ -37,8 +37,8 @@ function connect() {
   //options.acceptAllDevices = true;
   
   options.filters = [
-    {services: [LED_SERVICE_UUID]}, // <- 重要
-    {name: "BBC micro:bit [vaget]"}
+    //{services: [LED_SERVICE_UUID]}, // <- 重要
+    //{name: "BBC micro:bit [vaget]"}
   ];
   
   navigator.bluetooth.requestDevice(options)
